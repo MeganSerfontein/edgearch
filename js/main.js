@@ -75,6 +75,22 @@ function main() {
         thumbnail:true
     }); 
 
+    $('#lightbox5').lightGallery({
+        thumbnail:true
+    }); 
+
+    $('#lightbox6').lightGallery({
+        thumbnail:true
+    }); 
+
+    $('#lightbox7').lightGallery({
+        thumbnail:true
+    }); 
+
+    $('#lightbox8').lightGallery({
+        thumbnail:true
+    }); 
+
 	});
  
 

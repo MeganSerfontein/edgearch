@@ -286,6 +286,7 @@ a.down-btn span.fa.fa-angle-down {
 .space{ padding-top: 40px; }
 
 .space2{ padding-top: 60px; }
+.space3{ padding-top: 10px; }
 
 #cta{
 	background: #282f35;
@@ -313,22 +314,29 @@ a.btn.go-to-btn:hover{
 }
 
 .portfolio-item .hover-bg{
-	height: 400px;
-	overflow: hidden;
+	max-height: 400px;
 	position: relative;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.portfolio-item{
+	max-height: 400px;
+	overflow: hidden;
 }
 
-#portfolio1{
-	height: 400px;
+.img-responsive{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
 
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
-	margin: 0 auto;
+	overflow: hidden;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 30% 0;
+	padding: 15% 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -635,7 +643,7 @@ nav#footer{
 #footer span.fa{
 	color: #5a6858;
 	font-size: 26px;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 #footer a{
 	color: #ffffff;
