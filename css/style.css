@@ -482,12 +482,37 @@ ul.clients li{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	text-align: center;
+	color: #ffffff;
 }
 
 #testimonials .overlay{
 	height: auto;
 	min-height: 200px;
 	padding: 5% 0 ;
+	color: #ffffff;s
+}
+
+.testimonial-item .hover-bg{
+	max-height: 400px;
+	position: relative;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.testimonial-item{
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.testimonial-item1 .hover-bg{
+	max-height: 400px;
+	position: relative;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.testimonial-item1{
+	max-height: 400px;
+	overflow: hidden;
+	padding-top: 40px;
 }
 
 .owl-theme .owl-controls .owl-page span {
